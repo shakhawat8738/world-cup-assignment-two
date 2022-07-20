@@ -1,0 +1,148 @@
+/*......... google font link ........*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* body */
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: white;
+    
+}
+
+/* main */
+
+
+/*...... first section of marshelo........ */
+.marshelo-container {
+    background-color: black;
+    width:80%;
+    margin:0 auto;
+    height: 550px;
+    border-radius: 30px;
+}
+.marshelo{
+    display: flex;
+
+}
+.marshelo-info, h1, p{
+color: white;
+padding:20px
+}
+
+.marshelo-img img{
+
+    width:100%;
+    margin-left: 120px;
+
+}
+
+.heading{
+    font-size: 50px;
+}
+.marshelo-info  a{
+    text-decoration: none;
+    color:white;
+    background-color: rgb(231, 13, 13);
+    padding:8px 15px;
+    border-radius: 8px;
+}
+
+
+
+.aside-players-parents{
+display: flex;
+width:900px;
+
+}
+
+.asides-players{
+    margin-top: 60px;
+
+}
+
+.asides{
+ flex-grow: 1;
+margin-left: 120px;
+}
+
+
+.asides-info{
+    background-color: black;
+   
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+   
+   display: grid;
+   grid-template-columns: 1fr ;
+
+   
+  
+}
+.asides-info a{
+    grid-row-gap: 20px;
+    text-align: center;
+  color:black;
+ margin-left: 20px;
+ margin-right: 20px;
+ border-radius: 10px;
+
+ 
+    text-decoration: none;
+    font-size:20px;
+    padding: 0px;
+  background-color: white;
+
+    
+}
+.blog{
+    background-color: rgb(185, 5, 5);
+}
+.players{
+ flex-grow: 3;
+ margin:10px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 20px;
+}
+
+.player img{
+    width:250px;
+    border-radius: 10px;
+    
+}
+.player{
+    border:1px solid rgb(224, 221, 221);
+    width: 250px;
+    border-radius:10px ;
+}
+.players-description{
+    padding:10px
+}
+
+.footer{
+    background-color: black;
+    margin-top:100px;
+    height:300px;
+}
+.footer, h1, span{
+    color:white;
+    text-align: center;
+}
+.footer h1{
+    padding-top: 80px;
+}
+.footer span{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.anchor{
+   display: flex;
+    margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+  
+}
+.anchor a{
+    padding:10px
+}
