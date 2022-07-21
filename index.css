@@ -21,6 +21,9 @@ body{
     border-radius: 30px;
     transition: width 2s;
 }
+
+
+/* transition is here */
 .marshelo-container:hover{
     height: 650px;
 }
@@ -28,11 +31,14 @@ body{
     display: flex;
 
 }
+
+/* marshelo div basic info */
 .marshelo-info, h1, p{
 color: white;
 padding:20px
 }
 
+/* marshelo image */
 .marshelo-img img{
 
     width:100%;
@@ -43,6 +49,9 @@ padding:20px
 .heading{
     font-size: 50px;
 }
+
+
+/* anchor */
 .marshelo-info  a{
     text-decoration: none;
     color:white;
@@ -52,7 +61,7 @@ padding:20px
 }
 
 
-
+/* side var and players parents div */
 .aside-players-parents{
 display: flex;
 width:900px;
@@ -69,43 +78,43 @@ width:900px;
 margin-left: 120px;
 }
 
-
+/* side var info */
 .asides-info{
    
-    border: 2px solid red;
-    background-color:black;
-    width:250px;
-
-    height:250px;
-    border-radius: 10px;
-
    display: grid;
+   grid-template-columns: repeat(1,1fr);
   
-   /* grid-template-rows: repeat(1fr,3); */
-        
-  
+    background-color:black;
+    width:300px;
 
-   
-  
-};
-
-
+    height:300px;
+    border-radius: 10px;
+}
 .match{
-    row-gap: 20px;
     text-decoration: none;
-    color:white;
-    padding:20px;
-    border:2px solid white;
-    margin:10px;
+    color:black;
+    padding: 12px;
+  align-items: center;
+    font-size:16px;
+    font-weight:700;
+    width: 200px;
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    
    
-}
+    
+ }
+ #id-blog{
+    background-color: red;
+ }
 
 
 
-
-.blog{
-    background-color: rgb(185, 5, 5);
-}
+/* all players */
 .players{
  flex-grow: 3;
  margin:10px;
@@ -114,25 +123,36 @@ margin-left: 120px;
  grid-gap: 20px;
 }
 
+/* every single player image */
 .player img{
     width:250px;
     border-radius: 10px;
     
 }
+
+
+/* every single player */
 .player{
     border:1px solid rgb(224, 221, 221);
     width: 250px;
    height: 320px;
     border-radius:10px ;
 }
+
+/* players der details */
 .players-description{
     padding:10px;
     text-align: center;
     
 }
+
+/* another page player */
 .extra-player{
    height:200px;
 }
+
+
+/* another page player info */
 .player-info{
     display:flex;
    
@@ -140,15 +160,21 @@ margin-left: 120px;
     align-items: center;
 }
 
+
+
+/* footer */
 .footer{
     background-color: black;
     margin-top:100px;
     height:300px;
 }
+
+/* footer basic info */
 .footer, h1, span{
     color:white;
     text-align: center;
 }
+
 .footer h1{
     padding-top: 80px;
 }
@@ -166,6 +192,9 @@ margin-left: 120px;
 .anchor a{
     padding:10px
 }
+
+
+/* extrapage players parents div */
 .parent-div{
     display: flex;
     padding-left:15px;
@@ -199,9 +228,7 @@ margin-left: 120px;
         margin-top:0px;
         width:200px;
     }
-    /* .asides-players{
-        height: 8000px;
-    } */
+   
     .aside-players-parents{
         grid-template-columns: repeat(1,1fr);
         flex-direction: column;
@@ -242,6 +269,7 @@ margin-left: 120px;
 
 
 }
+/* mobile media query ended */
 
 
 
@@ -249,4 +277,42 @@ margin-left: 120px;
 
 
 /*....... media query for tablet .........*/
+
+
+
+
+/* ..........media query for tablet....... */
+@media only screen and(min-width:768px) and (max-width:991px){
+    
+.marshelo-container{
+    width: 1100px;
+}
+
+.aside-players-parents{
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+
+}
+.players{
+       
+
+    grid-template-columns: 200px 200px;
+    flex-direction: column;
+     
+ }
+ .player{
+
+ }
+
+
+}
+
+
+/* tried more than 100 times but failed  */
+
+
+
+
+
+
 
